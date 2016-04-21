@@ -1,0 +1,6 @@
+{
+  "name": "DataElement",
+  "tagline": "This package can be used to bind and retreive data to and from HTML elements and observe changes.",
+  "body": "# DataElement\r\nThis package can be used to bind and retreive data to and from HTML elements and observe changes.\r\n\r\nGetting Started:\r\n(For an example please see DataElementTest folder)\r\n\r\nStep 1 - Defining a template.\r\n  The syntax for defining a template is {DataKey} where DataKey is a property of the data object.\r\n  The {DataKey} tag can be included anywhere in your template including attributes mixed with \r\n  with other text or by itself.\r\n\r\nTemplate Example \r\n\r\n    <!-- IE does not allow invalid styles. Please use \"data-\" prefix as a work around. EX. data-style=\"...\"  -->\r\n    <article id=\"Contact{Id}\"  style=\"padding: 10px; background-color: {AccessColor};\"> \r\n      <h2>{LastName}, {FirstName}</h2> \r\n      <div>Position: {Position}</div> \r\n      <div>E-mail: <a href=\"mailto:{Email}\">{Email}</a></div> \r\n      <div> \r\n        <textarea>{Comment}</textarea> \r\n      </div> \r\n    </article>\r\n\r\n\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
